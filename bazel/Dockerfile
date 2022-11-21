@@ -40,7 +40,7 @@ RUN \
       $(lsb_release -cs) \
       stable edge" && \
     apt-get -y update && \
-    apt-get install -y docker-ce=${DOCKER_VERSION} docker-ce-cli=${DOCKER_VERSION} unzip && \
+    apt-get install -y docker-ce=${DOCKER_VERSION} docker-ce-cli=${DOCKER_VERSION} unzip zip && \
 
     mv /usr/bin/bazel /builder/bazel           && \
     mv /usr/bin/bazel-real /builder/bazel-real && \
