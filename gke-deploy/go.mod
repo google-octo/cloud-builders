@@ -15,9 +15,8 @@ require (
 	go.uber.org/atomic v1.4.0 // indirect
 	golang.org/x/net v0.0.0-20200114155413-6afb5195e5aa // indirect
 	google.golang.org/appengine v1.6.1 // indirect
-	gopkg.in/yaml.v2 v2.2.8 // indirect
 	k8s.io/api v0.17.2 // indirect
-	k8s.io/apimachinery v0.17.2
+	k8s.io/apimachinery v0.17.9
 	k8s.io/client-go v11.0.0+incompatible // indirect
 	sigs.k8s.io/controller-runtime v0.4.0 // indirect
 )
